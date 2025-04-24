@@ -1,0 +1,32 @@
+
+html, body{
+    margin: 0px;
+
+}
+header{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+   margin: 30px auto;
+   border-radius: 10px;
+   background-size: cover;
+   background-position: center;
+   justify-content: space-between;
+   gap: 10px;
+   text-align: center;
+}
+
+button{
+    margin: 30px ; 
+    transform:all 0.3s ease-in-out;
+
+}
+button:hover{
+    font-weight: 600;
+    transition: translateX(2px);
+}
+header div input,button{
+    border-radius: 5px ;
+}
+
